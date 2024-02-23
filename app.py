@@ -39,6 +39,12 @@ st.write("Phone: +1 (206) 200-7855")
 st.write("E-mail: qianachen8@gmail.com")
 
 
+# Include the FontAwesome stylesheet
+st.markdown(
+    '<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">',
+    unsafe_allow_html=True
+)
+
 # Social media and other links
 social_media = {
     "Instagram": ("https://linktr.ee/qianachen", "fab fa-instagram"),
